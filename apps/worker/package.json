@@ -1,0 +1,14 @@
+{
+  "name": "sports-ev-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
