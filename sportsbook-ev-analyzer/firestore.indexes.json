@@ -1,0 +1,28 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "odds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "commence_time", "order": "ASCENDING" },
+        { "fieldPath": "bookmaker", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "odds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "commence_time", "order": "ASCENDING" },
+        { "fieldPath": "team", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "odds",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "commence_time", "order": "ASCENDING" },
+        { "fieldPath": "ev_percentage", "order": "DESCENDING" }
+      ]
+    }
+  ]
+}
